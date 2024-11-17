@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/world.svg" }]],
+  base:"/aurora-archives/",
+  head: [["link", { rel: "icon", href: "/aurora-archives/world.svg" }]],
   title: "Aurora Archives ",
   description: "My Knowledge collection",
   themeConfig: {
